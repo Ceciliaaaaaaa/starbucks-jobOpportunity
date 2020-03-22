@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>工作机会 | 星巴克</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <script src="iconfont/iconfont.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<!--左边导航栏-->
+<div class="navigation">
+<!--    头部导航栏-->
+    <div class="logo">
+        <a href="#">
+            <img src="https://www.starbucks.com.cn/assets/images/logo.svg" alt="starbucks logo">
+        </a>
+    </div>
+    <div class="header">
+        <ul>
+            <li><a href="#">门店</a></li>
+            <li><a href="#">我的账户</a></li>
+            <li><a href="#">菜单</a></li>
+        </ul>
+        <div class="new-nav" id="menu" onclick="changeToMore()">
+            <a href="#">
+                <i class="iconfont icon-caidan"></i>
+            </a>
+        </div>
+    </div>
+<!--    侧边导航栏-->
+    <div class="nav-bar">
+        <div class="about">关于星巴克</div>
+        <ul>
+            <li><a href="#">星巴克在中国</a></li>
+            <li ><a href="#" id="choose">工作机会</a></li>
+            <li><a href="#">企业新闻</a></li>
+            <li><a href="#">社会责任</a></li>
+            <li><a href="#">历史回顾</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </div>
+<!--    登陆注册部分-->
+    <div class="more">
+        <div class="close" id="close" onclick="changeToMenu()">
+            <i class="iconfont icon-guanbi"></i>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">门店</a></li>
+                <li><a href="#">星享俱乐部</a></li>
+                <li><a href="#">菜单</a></li>
+                <li><hr></li>
+                <li><a href="#">星巴克移动应用</a></li>
+                <li><a href="#">星礼卡</a></li>
+                <li><a href="#">星巴克臻选™</a></li>
+                <li><a href="#">啡快™ － 在线点 到店取</a></li>
+                <li><a href="#">专星送™</a></li>
+                <li><a href="#">咖啡星讲堂</a></li>
+                <li><a href="#">上海烘焙工坊</a></li>
+                <li><a href="#">关于星巴克</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li><hr></li>
+            </ul>
+        </div>
+        <div class="login">
+            <a href="#" class="log_in">
+                <img src="https://www.starbucks.com.cn/assets/icons/icon-account.svg" alt="icon-account">
+                <span>登陆</span>
+            </a>
+            <a href="#" class="register"><span>注册</span></a>
+        </div>
+        <div class="footer">
+            <div class="clause">
+                <a href="#"><span>English</span></a>
+                <span>|</span>
+                <a href="#"><span>隐私政策</span></a>
+                <span>|</span>
+                <a href="#"><span>使用条款</span></a>
+            </div>
+            <div class="police">
+                <a href="#"><img src="img/icpicon.png" alt="icpicon"></a>
+                <a href="#"><span>沪公网安备 31010402000318号 </span></a>
+                <span>|</span>
+                <a href="#"><span> 沪ICP备17003747号</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--右边内容-->
+<div class="content">
+<!--    星巴克伙伴-->
+    <div class="starbucks-partner">
+        <h1>有一个机会，成为星巴克伙伴</h1>
+        <h3>连接更广阔的世界</h3>
+        <p>加入星巴克大家庭，和我们一起工作，让我们与你一起成长，创造无限可能。在星巴克工作意味着一个获得超越简单雇佣关系的机会，成为我们的伙伴。我们在这里和你一起成长，成为一个更好的人，实现更大的目标，在你面前的正是无限可能。你可以在星巴克实现更多、成就更多，并且成为最好的自己。就在这里认同自己的价值然后去发现一个更大更有意义的世界。</p>
+        <div class="intro">
+            <div class="retail">
+<!--                <div class="imgDiv"></div>-->
+                <img src="img/career-retail.jpg" alt="career-retail">
+                <h2>零售门店</h2>
+                <div class="button"><a href="#">点击申请</a></div>
+            </div>
+            <div class="support">
+<!--                <div class="imgDiv" style="background-image:url(img/career-support-center.jpg)" ></div>-->
+                <img src="img/career-support-center.jpg" alt="career-support-center">
+                <h2>支持中心</h2>
+                <div class="button"><a href="#">点击申请</a></div>
+            </div>
+            <div class="roast">
+<!--                <div class="imgDiv"></div>-->
+                <img src="img/career-roastery.jpg" alt="career-roastery">
+                <h2>烘焙工坊</h2>
+                <div class="button"><a href="#">点击申请</a></div>
+            </div>
+        </div>
+        <div class="cup">
+            <img src="img/careers-cup.png" alt="careers-cup">
+        </div>
+    </div>
+<!--    关于星巴克-->
+    <div class="about-starbucks">
+        <h1 class="head-title">关于星巴克</h1>
+        <div class="partner-culture">
+            <h3 class="title">伙伴文化</h3>
+            <p>有一个机会成为星巴克的伙伴</p>
+            <h3>我们的使命</h3>
+            <p>激发并孕育人文精神——每人、每杯、每个社区</p>
+            <h3>伙伴·同行</h3>
+            <ul>
+                <li>在星巴克，我们称彼此为伙伴，伙伴们一起共享在星巴克的无限机会，伙伴们一起实现更多、成就更多</li>
+                <li>在星巴克，连接更广阔的世界、做最好的自己、成就非凡事业，让每一天都充满意义地连接彼此、成就自己</li>
+            </ul>
+        </div>
+        <div class="coffee-culture">
+            <h3 class="title">咖啡文化</h3>
+            <ul>
+                <li>星巴克的咖啡文化不仅是延续传统传播咖啡文化，还传递情感联系</li>
+                <li>始于对咖啡的热爱，星巴克从西雅图出发到如今遍布世界各地，让更多的人享受到高品质的咖啡</li>
+                <li>同样始于对咖啡的热爱，星巴克伙伴们从祖国各地汇聚在门店，将这份咖啡之爱传递到更广阔的天地</li>
+                <li>星巴克提供了诸多机会让伙伴们得以提高咖啡技能，围裙的不同颜色代表从咖啡探索者到咖啡公使的不同咖啡技能等级</li>
+            </ul>
+        </div>
+    </div>
+    <div class="about-imgs">
+        <img src="img/starbucks-store.jpg" alt="starbucks-store">
+        <img src="img/starbucks-employee-twins.png" alt="starbucks-employee-twins">
+        <img src="img/starbucks-wechat-social-gifting.jpg" alt="starbucks-wechat-social-gifting">
+    </div>
+<!--    选择星巴克-->
+    <div class="choose-starbucks">
+        <h1 class="head-title">选择星巴克</h1>
+        <h3 class="title">雇主赞誉</h3>
+        <ul>
+            <li>星巴克不只是一家“咖啡”公司更是一家和“人”有关的公司</li>
+            <li>星巴克是咖啡知识和专业技能方面的领导者，同样对伙伴的重视星巴克一样走在前列</li>
+            <li>星巴克重视并认可伙伴们的持续贡献与持续投入，致力于帮助他们实现个人和职业梦想。伙伴们拥有“咖啡豆股票”的权益并享有“助房津贴计划”、“咖啡星享假期”和“父母关爱计划”等福利</li>
+            <li>星巴克的努力得到了业界的赞誉与认可，并因此获得多个机构颁发的最佳雇主荣誉（多次被Aon、Universum、LinkedIn等机构评选为中国最佳雇主、中国最具吸引力雇主、中国典范雇主等）
+            </li>
+        </ul>
+        <img src="https://www.starbucks.com.cn/images/pages/careers-icon-stars.svg" alt=""carreers-icon-stars>
+    </div>
+    <div class="choose-img">
+<!--        <img src="https://www.starbucks.com.cn/images/pages/careers-bg-line-3.svg" alt=""career-bg-line-3>-->
+    </div>
+<!--    全面薪酬-->
+    <div class="payment">
+        <img src="img/careers-icon-apron.png" alt="careers-icon-apron">
+        <div class="pay-content">
+            <h3 class="title">全面薪酬</h3>
+            <p>我们的伙伴无论全职还是兼职（每周20小时或以上），都可以享受一系列的薪酬福利项目。根据工作职位和个人情况的不同，伙伴的全面薪酬福利包括：</p>
+            <ul class="items">
+                <li class="li-1">
+                    <ul>
+                        <li>不断增长的薪资</li>
+                        <li>额外的人寿保险</li>
+                        <li>医疗保险</li>
+                        <li>股票期权（咖啡豆股票)</li>
+                        <li>助房津贴计划</li>
+                    </ul>
+                </li>
+                <li class="li-2">
+                    <ul>
+                        <li>咖啡星享假期</li>
+                        <li>父母关爱计划</li>
+                        <li>管理奖金计划</li>
+                        <li>咖啡饮料伙伴券</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="payment-img">
+<!--        <img src="https://www.starbucks.com.cn/images/pages/careers-bg-line-4.svg" alt="careers-bg-line-4">-->
+    </div>
+<!--    星巴克大学-->
+    <div class="starbucks-university">
+        <h3 class="title">星巴克大学 | 伙伴们的专属咖啡大学</h3>
+        <ul class="items">
+            <li>星巴克中国大学（Starbucks China University）为伙伴们设计了个性化的学习与发展道路</li>
+            <li>希望通过这些努力，与每一个星巴克伙伴分享每一个机会的乐趣，迎接每一个机会的挑战</li>
+            <li>作为星巴克伙伴，你可以在SCU选择不同的课程进行学习，打造你在关键领域的专业能力，你的每一次学习都将向你想要的未来更进一步</li>
+            <ul class="second-items">
+                <li>零售学院</li>
+                <li>领导力学院</li>
+                <li>咖啡与文化学院</li>
+                <li>专业职能学院</li>
+            </ul>
+        </ul>
+        <img src="img/careers-icon-scu.png" alt="careers-icon-scu">
+    </div>
+<!--    加入我们-->
+    <div class="join-us">
+        <div class="code-join">
+            <div class="code">
+                <img src="img/starbucks_recruitment_wechat_qr_code.png" alt="wechat-code">
+            </div>
+            <p>扫描二维码 加入我们</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

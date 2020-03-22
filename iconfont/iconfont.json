@@ -1,0 +1,30 @@
+{
+  "id": "1529262",
+  "name": "星巴克仿站",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4790838",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4791340",
+      "name": "星巴克logo",
+      "font_class": "xingbakelogo",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "5272859",
+      "name": "关 闭",
+      "font_class": "guanbi",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    }
+  ]
+}
